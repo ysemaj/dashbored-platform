@@ -1,0 +1,88 @@
+<div class="col order-md-1">
+
+    <div class="text-center my-2">
+        <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="default"
+            data-auto-logout-link="false" data-use-continue-as="true" data-width=""></div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <hr>
+        </div>
+        <div class="col-auto"><small>or</small></div>
+        <div class="col">
+            <hr>
+        </div>
+    </div>
+
+    <form class="needs-validation" novalidate="">
+        <!-- Title, forename and surname -->
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="firstName">First name</label><span class="text-muted">*</span>
+                <input type="text" class="form-control reg" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                    Valid first name is required.
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="lastName">Last name</label><span class="text-muted">*</span>
+                <input type="text" class="form-control reg" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                    Valid last name is required.
+                </div>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+            <label for="email">Email <span class="text-muted">*</span></label>
+            <input type="email" class="form-control reg" id="email" placeholder="" required>
+            <div class="invalid-feedback">
+                Please enter a valid email address.
+            </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="mb-3">
+            <label for="email">Phone <span class="text-muted dotted" title=" Please note that a phone number is
+                                required in order to enable multi-factor authentication. This can be enabled later on in
+                                Settings"><a href="#" class="dotted-tooltip" data-toggle="tooltip"
+                        data-placement="right" title="Required to enable MFA"><i
+                            class="fas fa-info-circle"></i></a></label>
+            <input type="phone" class="form-control reg" id="phone" placeholder="">
+            <small class="text-muted">Standard call, messaging or data rates may apply.</small>
+            <div class="invalid-feedback">
+                Please enter a valid phone number.
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-3">
+            <label for="password">Password</label><span class="text-muted">*</span>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" class="form-control reg" id="inputPassword" placeholder="" required>
+            <div class="invalid-feedback">
+                Please enter a valid password.
+            </div>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="mb-3">
+            <label for="confirmPassword">Confirm password</label><span class="text-muted">*</span>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" class="form-control reg" id="inputConfirmPassword" placeholder="" required>
+            <div class="invalid-feedback">
+                Please enter a valid password.
+            </div>
+        </div>
+
+        <div class="mb-3" id="disclaimer">
+            <small class="text-muted">By clicking Register you are agreeing to our <a href="legal/privacy">privacy
+                    policy</a>, <a href="legal/terms">terms and
+                    conditions</a>, and <a href="legal/user-agreement">user
+                    agreement</a>.</small>
+        </div>
+    </form>
+</div>

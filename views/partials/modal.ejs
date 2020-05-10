@@ -1,0 +1,23 @@
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="progress">
+                <div class="progress-bar gradient-red" role="progressbar" style="width: 0%" aria-valuenow="0"
+                    aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Get Started</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <% include ../partials/register %>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger get-started-button" type="submit">Register</button>
+            </div>
+        </div>
+    </div>
+</div>
